@@ -1,11 +1,18 @@
 # 2024TADS-POO
 
-Atividades da disciplina de POO 
+# Apresentação
+Introdução à Programação Orientada a Objetos (POO)
+A programação orientada a objetos (POO) é um paradigma de programação que utiliza "objetos" para designar entidades do mundo real. Cada objeto possui características, chamadas de atributos, e comportamentos, chamados de métodos
+# Aluno
+* Kainã Magdiel
 
-## Tutorial Git
+# Curso
+* `TADS`
 
-Guia interativo aprendizado Git (https://learngitbranching.js.org/) 
+<hr>
 
-Associando o GitHub no Visual Studio Code (https://www.youtube.com/watch?v=peGUkhXD3Vw)
+## Atividades 
 
-## Link para as atividades no [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bellincanta/2024TADS-POO/HEAD)
+[[Atv01]()]
+
+[[Atv02]()]
