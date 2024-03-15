@@ -17,9 +17,9 @@ A programação orientada a objetos (POO) é um paradigma de programação que u
 
 <img alt="JavaScript" width="195"  align="right"  src="https://geekdama.com/wp-content/uploads/2024/02/one-piece-luffy-gear-5-render-category.png">
 
-[[Atv01]()]
+[Atv01](https://github.com/fushisuno/2024TADS-POO/blob/main/Atividades/Atv01/notebook/Atv01.ipynb)
 
-[[Atv02]()]
+[Atv02](https://github.com/fushisuno/2024TADS-POO/blob/main/Atividades/Atv02/notebook/Atv02.ipynb)
 
 [![fushisuno](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fushisuno/2024TADS-POO/HEAD)
 <hr>
