@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TestaBrinquedo",
+      "request": "launch",
+      "mainClass": "Atv2_2B/ds.TestaBrinquedo",
+      "projectName": "2024TADS-POO_ad424fc8"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": "src"
+    }
+  ]
+}
