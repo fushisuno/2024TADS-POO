@@ -43,10 +43,9 @@ public class Data extends Tempo{
 		return (this.ano * 31104000 + this.mes * 2592000 + this.dia * 86400);
 	}
 
-	@Override
-	public String toString() {
-		return "";
-	}
-
+  @Override
+  public String toString() {
+      return String.format("%02d/%02d/%04d", dia, mes, ano);
+  }
 
 }

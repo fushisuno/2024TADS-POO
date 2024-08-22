@@ -44,7 +44,7 @@ public class Horario extends Tempo{
 	}
 
 	@Override
-	public String toString() {
-		return (this.hora + ":" + this.minuto + ":" + this.segundo);
-	}
+    public String toString() {
+        return String.format("%02d:%02d:%02d", hora, minuto, segundo);
+    }
 }
