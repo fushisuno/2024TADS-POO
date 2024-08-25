@@ -1,46 +1,50 @@
 package classes;
 
 public class Data extends Tempo{
-  private int dia;
-  private int mes;
-  private int ano;
+  private long  dia;
+  private long mes;
+  private long ano;
 
   public Data() {
   }
 
-  public Data(int dia, int mes, int ano) {
+  public Data(long dia, long mes, long ano) {
     this.dia = dia;
     this.mes = mes;
     this.ano = ano;
   }
 
-  public int getDia() {
+  public long getDia() {
     return this.dia;
   }
 
-  public int getMes() {
+  public long getMes() {
     return this.mes;
   }
 
-  public int getAno() {
+  public long getAno() {
     return this.ano;
   }
 
-  public void setDia(int dia) {
+  public void setDia(long dia) {
     this.dia = dia;
   }
 
-  public void setMes(int mes) {
+  public void setMes(long mes) {
     this.mes = mes;
   }
 
-  public void setAno(int ano) {
+  public void setAno(long ano) {
     this.ano = ano;
   }
 
   @Override
 	public long quantidade(){
-		return (this.ano * 31104000 + this.mes * 2592000 + this.dia * 86400);
+    long sano = (this.ano * 31104000);
+    long smes = (this.mes * 2592000);
+    long sdia = (this.dia * 86400);
+
+		return ((this.ano * 31104000) + (this.mes * 2592000) + (this.dia * 86400));
 	}
 
   @Override

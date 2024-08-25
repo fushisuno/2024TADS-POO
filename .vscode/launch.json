@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Atv2_2B/classes.Main",
+      "projectName": "Atv2_2B"
+    },
+    {
+      "type": "java",
       "name": "TestaBrinquedo",
       "request": "launch",
       "mainClass": "Atv2_2B/ds.TestaBrinquedo",

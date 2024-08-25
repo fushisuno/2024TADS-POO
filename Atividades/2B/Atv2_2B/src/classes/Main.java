@@ -1,40 +1,45 @@
 package classes;
 
+import java.util.Scanner;
+
 public class Main {
+    static Scanner ler = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        if (args.length < 4) {
+        String input = ler.nextLine();
+        String input_list[] = input.split(" ");
+        if (input_list.length < 4){
             System.out.println("Formato esperado: <tipo> <valor1> <valor2> <valor3>");
-            return;
-        }
-
-        String tipo = args[0];
-        Tempo tempo = null;
-
-        try {
-            int valor1 = Integer.parseInt(args[1]);
-            int valor2 = Integer.parseInt(args[2]);
-            int valor3 = Integer.parseInt(args[3]);
-
-            if ("tempo".equalsIgnoreCase(tipo)) {
-                tempo = new Tempo();
-            } else if ("data".equalsIgnoreCase(tipo)) {
-                tempo = new Data(valor1, valor2, valor3);
-            } else if ("horario".equalsIgnoreCase(tipo)) {
-                tempo = new Horario(valor1, valor2, valor3);
-            } else {
-                System.out.println("Tipo inexistente.");
-                return;
+            System.out.println("Tipos disponíveis: tempo, data, horario");
+        }else{
+            String tipo = input_list[0].toLowerCase();
+            int valor1 = Integer.parseInt(input_list[1]);
+            int valor2 = Integer.parseInt(input_list[2]);
+            int valor3 = Integer.parseInt(input_list[3]);
+    
+            Tempo tempo = null;
+    
+            switch (tipo) {
+                case "tempo":
+                    tempo = new Tempo();
+                    break;
+                case "data":
+                    tempo = new Data(valor1, valor2, valor3);
+                    break;
+                case "horario":
+                    tempo = new Horario(valor1, valor2, valor3);
+                    break;
+                default:
+                    System.out.println("Tipo inexistente.");
+                    return;
             }
-
+    
             dadosTempo(tempo);
-
-        } catch (NumberFormatException e) {
-            System.out.println("Os valores devem ser números inteiros.");
         }
+
     }
 
-    // Método para exibir informações sobre o objeto Tempo
-    public static void dadosTempo(Tempo oTempo) {
+    private static void dadosTempo(Tempo oTempo) {
         System.out.println("Tempo formatado: " + oTempo.toString());
         System.out.println("Tempo em segundos: " + oTempo.quantidade());
     }

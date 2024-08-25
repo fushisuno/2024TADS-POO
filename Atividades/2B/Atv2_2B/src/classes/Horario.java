@@ -1,40 +1,40 @@
 package classes;
 
 public class Horario extends Tempo{
-	private int hora;
-	private int minuto;
-	private int segundo;
+	private long hora;
+	private long minuto;
+	private long segundo;
 	
 	public Horario() {
 	}
 
-	public Horario(int in_hora, int in_minuto, int in_segundo){
+	public Horario(long in_hora, long in_minuto, long in_segundo){
 		this.hora = in_hora;
 		this.minuto = in_minuto;
 		this.segundo = in_segundo;
 	}
 	
-	public void setHora(int hora) {
+	public void setHora(long hora) {
 		this.hora = hora;
 	}
 
-	public void setMinuto(int minuto) {
+	public void setMinuto(long minuto) {
 		this.minuto = minuto;
 	}
 
-	public void setSegundo(int segundo) {
+	public void setSegundo(long segundo) {
 		this.segundo = segundo;
 	}
 
-	public int getHora() {
+	public long getHora() {
 		return this.hora;
 	}
 
-	public int getMinuto() {
+	public long getMinuto() {
 		return this.minuto;
 	}
 
-	public int getSegundo() {
+	public long getSegundo() {
 		return this.segundo;
 	}
 
