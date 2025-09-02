@@ -27,7 +27,7 @@ Todos os códigos foram implementados em **Java**, focando nos conceitos fundame
 - **Polimorfismo:** métodos com comportamentos diferentes dependendo da classe  
 - **Abstração:** simplificação do modelo do objeto, focando no essencial  
 
-### 🧮 Estruturas de Controle
+### 📁 Estruturas de Controle
 - Condicionais: `if`, `else if`, `else`  
 - Laços de repetição: `for`, `while`, `do-while`  
 - Estruturas de decisão com `switch`  
@@ -38,7 +38,7 @@ Todos os códigos foram implementados em **Java**, focando nos conceitos fundame
 
 ---
 
-## 🗂 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
 ```bash
 Atividades/
